@@ -1,0 +1,10 @@
+\\homes.cms.waikato.ac.nz\people\hx68\win\Documents\102\WindowsFormsAppRoadRacing\WindowsFormsAppRoadRacing\bin\Debug\WindowsFormsAppRoadRacing.exe.config
+\\homes.cms.waikato.ac.nz\people\hx68\win\Documents\102\WindowsFormsAppRoadRacing\WindowsFormsAppRoadRacing\bin\Debug\WindowsFormsAppRoadRacing.exe
+\\homes.cms.waikato.ac.nz\people\hx68\win\Documents\102\WindowsFormsAppRoadRacing\WindowsFormsAppRoadRacing\bin\Debug\WindowsFormsAppRoadRacing.pdb
+\\homes.cms.waikato.ac.nz\people\hx68\win\Documents\102\WindowsFormsAppRoadRacing\WindowsFormsAppRoadRacing\obj\Debug\WindowsFormsAppRoadRacing.csprojResolveAssemblyReference.cache
+\\homes.cms.waikato.ac.nz\people\hx68\win\Documents\102\WindowsFormsAppRoadRacing\WindowsFormsAppRoadRacing\obj\Debug\WindowsFormsAppRoadRacing.Form1.resources
+\\homes.cms.waikato.ac.nz\people\hx68\win\Documents\102\WindowsFormsAppRoadRacing\WindowsFormsAppRoadRacing\obj\Debug\WindowsFormsAppRoadRacing.Properties.Resources.resources
+\\homes.cms.waikato.ac.nz\people\hx68\win\Documents\102\WindowsFormsAppRoadRacing\WindowsFormsAppRoadRacing\obj\Debug\WindowsFormsAppRoadRacing.csproj.GenerateResource.Cache
+\\homes.cms.waikato.ac.nz\people\hx68\win\Documents\102\WindowsFormsAppRoadRacing\WindowsFormsAppRoadRacing\obj\Debug\WindowsFormsAppRoadRacing.csproj.CoreCompileInputs.cache
+\\homes.cms.waikato.ac.nz\people\hx68\win\Documents\102\WindowsFormsAppRoadRacing\WindowsFormsAppRoadRacing\obj\Debug\WindowsFormsAppRoadRacing.exe
+\\homes.cms.waikato.ac.nz\people\hx68\win\Documents\102\WindowsFormsAppRoadRacing\WindowsFormsAppRoadRacing\obj\Debug\WindowsFormsAppRoadRacing.pdb
