@@ -61,9 +61,6 @@ namespace WindowsFormsAppRoadRacing
             _y += _speed;
         }
 
-        public int SpeedUp()
-        {
-            return _speed++;
-        }
+        public abstract int SpeedUp();
     }
 }

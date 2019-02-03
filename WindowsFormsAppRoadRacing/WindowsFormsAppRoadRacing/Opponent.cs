@@ -1,18 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Drawing;
 
 namespace WindowsFormsAppRoadRacing
 {
-    class Lane: Sprite
+    class Opponent : Sprite
     {
         Brush _brush = new SolidBrush(Color.Black);
-        private const int _width = 20;
+        private const int _width = 60;
         private const int _height = 100;
-        public Lane(int x, int y, int speed): base(x, y, _width, _height, speed)
+        public Opponent(int x, int y, int speed): base(x, y, _width, _height, speed)
         {
 
         }
