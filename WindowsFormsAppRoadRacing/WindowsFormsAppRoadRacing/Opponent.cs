@@ -12,14 +12,18 @@ namespace WindowsFormsAppRoadRacing
         Brush _brush = new SolidBrush(Color.Black);
         private const int _width = 60;
         private const int _height = 100;
-        public Opponent(int x, int y, int speed): base(x, y, _width, _height, speed)
-        {
+        private Bitmap _bitmap;
 
+        public Opponent(int x, int y, int speed, Bitmap bitmap) : base(x, y, _width, _height, speed)
+        {
+            _bitmap = bitmap;
         }
 
         public override void Display(Graphics paper)
         {
-            paper.FillRectangle(_brush, X, Y, _width, _height);
+            //paper.FillRectangle(_brush, X, Y, _width, _height);
+            paper.DrawImage(_bitmap, X, Y);
+            
         }
 
         public override int SpeedUp()
