@@ -41,6 +41,7 @@
             // 
             // _pictureBoxRoadRacing
             // 
+            this._pictureBoxRoadRacing.BackColor = System.Drawing.SystemColors.GrayText;
             this._pictureBoxRoadRacing.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this._pictureBoxRoadRacing.Location = new System.Drawing.Point(12, 12);
             this._pictureBoxRoadRacing.Name = "_pictureBoxRoadRacing";
@@ -63,10 +64,11 @@
             // labelGameOver
             // 
             this.labelGameOver.AutoSize = true;
-            this.labelGameOver.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelGameOver.Location = new System.Drawing.Point(396, 348);
+            this.labelGameOver.Font = new System.Drawing.Font("Segoe Print", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelGameOver.ForeColor = System.Drawing.Color.Red;
+            this.labelGameOver.Location = new System.Drawing.Point(384, 357);
             this.labelGameOver.Name = "labelGameOver";
-            this.labelGameOver.Size = new System.Drawing.Size(153, 31);
+            this.labelGameOver.Size = new System.Drawing.Size(174, 47);
             this.labelGameOver.TabIndex = 2;
             this.labelGameOver.Text = "Game Over";
             this.labelGameOver.Visible = false;
@@ -114,7 +116,7 @@
             this.Controls.Add(this.labelGameOver);
             this.Controls.Add(this._pictureBoxRoadRacing);
             this.Name = "Game";
-            this.Text = "Form1";
+            this.Text = "Road Racing";
             ((System.ComponentModel.ISupportInitialize)(this._pictureBoxRoadRacing)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

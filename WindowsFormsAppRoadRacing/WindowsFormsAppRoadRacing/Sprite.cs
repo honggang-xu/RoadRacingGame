@@ -9,12 +9,14 @@ namespace WindowsFormsAppRoadRacing
 {
     abstract class Sprite
     {
+        //instance variables
         private int _x;
         private int _y;
         private int _width;
         private int _height;
         private int _speed;
 
+        //constructor
         public Sprite(int x, int y, int width, int height, int speed)
         {
             _x = x;
@@ -24,8 +26,7 @@ namespace WindowsFormsAppRoadRacing
             _speed = speed;
         }
 
-        public abstract void Display(Graphics paper);
-
+        //properties
         public int X
         {
             get { return _x; }
@@ -55,6 +56,9 @@ namespace WindowsFormsAppRoadRacing
             get { return _speed; }
             set { _speed = value; }
         }
+
+        //methods
+        public abstract void Display(Graphics paper);
 
         public void Move()
         {
