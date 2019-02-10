@@ -9,19 +9,22 @@ namespace WindowsFormsAppRoadRacing
 {
     class User : Sprite
     {
+        //instance variables
         Brush _brush = new SolidBrush(Color.Red);
         private const int _width = 70;
         private const int _height = 100;
         private const int _speed = 0;
         private static Bitmap BITMAP = Properties.Resources.user_car;
 
+        //constructor
         public User(int x, int y) : base(x, y, _width, _height, _speed)
         {
 
         }
+
+        //methods
         public override void Display(Graphics paper)
         {
-            //paper.FillRectangle(_brush, X, Y, _width, _height);
             paper.DrawImage(BITMAP, X, Y);
         }
 
@@ -29,7 +32,11 @@ namespace WindowsFormsAppRoadRacing
         {
             this.X = x;
         }
-
+        /// <summary>
+        /// Detect whether user collide with another opponent
+        /// </summary>
+        /// <param name="opponent"></param>
+        /// <returns></returns>
         public bool Collide(Opponent opponent)
         {
             if (this.X + this.Width > opponent.X && this.X < opponent.X + opponent.Width &&

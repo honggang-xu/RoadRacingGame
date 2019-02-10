@@ -9,19 +9,21 @@ namespace WindowsFormsAppRoadRacing
 {
     class Opponent : Sprite
     {
+        //instance variables
         Brush _brush = new SolidBrush(Color.Black);
         private const int _width = 60;
         private const int _height = 100;
         private Bitmap _bitmap;
 
+        //constructor
         public Opponent(int x, int y, int speed, Bitmap bitmap) : base(x, y, _width, _height, speed)
         {
             _bitmap = bitmap;
         }
 
+        //methods
         public override void Display(Graphics paper)
         {
-            //paper.FillRectangle(_brush, X, Y, _width, _height);
             paper.DrawImage(_bitmap, X, Y);
             
         }

@@ -9,14 +9,18 @@ namespace WindowsFormsAppRoadRacing
 {
     class Lane : Sprite
     {
-        Brush _brush = new SolidBrush(Color.Black);
+        //instance variables
+        Brush _brush = new SolidBrush(Color.White);
         private const int _width = 20;
         private const int _height = 100;
+
+        //constructor
         public Lane(int x, int y, int speed) : base(x, y, _width, _height, speed)
         {
 
         }
 
+        //methods
         public override void Display(Graphics paper)
         {
             paper.FillRectangle(_brush, X, Y, _width, _height);
